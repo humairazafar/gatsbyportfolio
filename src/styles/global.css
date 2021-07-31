@@ -5,13 +5,13 @@
   padding: 0;
   text-decoration: none;
   font-family: "Montserrat";
-  color: white;
+  color: rgb(10, 0, 0);
 }
 html, body {
   min-height: 100%;
 }
 body {
-  background: radial-gradient(at top left, rgba(146,43,225,1) 0%, rgba(43,9,107,1) 100%);
+  background: radial-gradient(at top left, rgb(255, 255, 255) 0%, rgb(240, 237, 245) 100%);
   background-repeat: no-repeat;
 }
 p {
@@ -41,7 +41,7 @@ nav a {
   border-bottom: 3px solid transparent;
 }
 nav a:hover {
-  border-color: white;
+  border-color: rgb(241, 197, 197);
 }
 footer p{
   text-align: center;

@@ -10,10 +10,10 @@ export default function Home({ data }) {
     <Layout>
     <section className={header}>
       <div>
-        <h2>
+        <h3>
           Design
-        </h2>
-        <h3>Develop and Deploy</h3>
+        </h3>
+        <h2>Develop and Deploy</h2>
         <p>Web developer based in Chicago</p>
         <Link className={btn} to="/projects">My Portfolio Projects</Link>
       </div>
@@ -25,7 +25,7 @@ export default function Home({ data }) {
 
 export const query = graphql`
 query Mypic {
-  file(relativePath: {eq: "pic.jpg"}) {
+  file(relativePath: {eq: "cjc 3.jpg"}) {
     childImageSharp {
       gatsbyImageData(
       layout: FULL_WIDTH
